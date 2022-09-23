@@ -1,0 +1,110 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    color: black;
+}
+
+#header{
+    width: 100%;
+    background-color:  black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+justify-content: space-between
+}
+
+#header_1{
+    justify-content: flex-start;
+}
+#header_2{
+    float: right;
+    justify-content: flex-end;
+}
+
+
+#Publicidad{
+    width: 100%;
+    height: 100px;
+
+}
+
+#Popular{
+    background-color: #ebebeb;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 150px;
+
+
+}
+
+#Content{
+    background-color: #ebebeb;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 2300px;
+    
+
+}
+
+#Recomend{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 200px;
+    color: black;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.Box-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.Content_Box{
+    display: flex;
+    padding: 1%;
+    background-color: white;
+    margin: 1%;
+    border: 1px black solid;
+    
+    
+}
+
+.Content_Box_2{
+    margin: 5px;
+    
+
+
+}
+
+
+#Content_2{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    color: black;
+    
+   
+}
+
+
+#forent{
+    height: 100px;
+}
+
+.Resumen{
+    color: black;
+}
